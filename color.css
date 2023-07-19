@@ -2,7 +2,7 @@ body{
   font-family: Work Sans;
 }
 /* nav styles */
-.nav-title{
+.title{
   text-align: center;
   font-size: 45px;
   font-weight: 700;
@@ -12,7 +12,7 @@ nav {
   justify-content: s;
   align-items: center;
   padding-left: 350px;
-  /* padding-top: 40px; */
+  gap: 20px;
 }
 nav>ul {
   display: flex;
@@ -77,6 +77,7 @@ h3, h1{
 }
 .online{
   text-align: center;
+  padding-top: 50px;
 }
 .online-title{
   font-size: 48px;
@@ -95,6 +96,7 @@ h3, h1{
 .play{
   display: flex;
   justify-content: space-evenly;
+  padding-top: 50px;
 }
 .play-content{
   padding-top: 150px;
@@ -117,4 +119,24 @@ h3, h1{
   border: 0;
   border-radius: 50px;
   vertical-align: middle;
+}
+footer{
+  background-color: #0B0223;
+  color: white;
+  height: 630px;
+  width: 100%;
+  margin-top: 50px;
+}
+.container{
+  text-align: center;
+  padding-top: 110px;
+}
+.footer-description{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+}
+.logo-container{
+  padding-top: 20px ;
 }
