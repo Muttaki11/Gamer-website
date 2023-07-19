@@ -106,7 +106,12 @@ h3, h1{
   padding: 0;
 }
 .products{
-  padding: 50px 200px;
+  padding-top: 50px;
+  padding-left: 500px;
+}
+.products2{
+  padding-left: 50px;
+  padding-top: 10px;
 }
 .product-btn{
   border: 0;
