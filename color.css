@@ -1,0 +1,13 @@
+.header{
+  display: flex;
+  height: 40px;
+}
+.nav-title{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
